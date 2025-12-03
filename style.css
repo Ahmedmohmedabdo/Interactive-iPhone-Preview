@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.container header{
+    width: 80%;
+    padding: 20px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container header img{
+    width: 45px;
+    border-radius: 8px;
+}
+ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+.contant{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.contant .text{
+    max-width: 40%;
+}
+.contant .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.contant .text p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.contant .text a{
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    padding: 8px 15px;
+    border-radius: 15px;
+}
+
+.contant .image{
+    width: 30%;
+}
+
+.contant .image img{
+    width: 180px;
+    border-radius: 3px;
+
+}
+.container .icons{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+.container .icons img{
+    width: 50px;
+    transition: 0.5s;
+}
+.container .icons img:hover{
+    scale: 1.1;
+}
+
+
+
+
+
+
+
